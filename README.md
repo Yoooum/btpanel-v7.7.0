@@ -9,9 +9,9 @@ curl -sSO https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install/i
 
 **自定义修改部分（可选）**
 
-去除广告、页脚显示 
-修改面板未登录且未正确输入安全入口时的页面显示 
-解锁插件商店，部分插件不可用 
+去除广告、页脚显示  
+修改面板未登录且未正确输入安全入口时的页面显示  
+解锁插件商店，部分插件不可用  
 
 ```bash
 curl -sSO https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/modify/run.sh && bash run.sh
