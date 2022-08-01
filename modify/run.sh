@@ -21,6 +21,7 @@ cp -r $modify_path/panelPlugin.py /www/server/panel/class/
 cp -r $modify_path/*.html /www/server/panel/BTPanel/templates/default/
 
 echo "文件替换完成"
+rm -r /www/backup/modify
 
 bt 9
 bt 1
