@@ -149,9 +149,9 @@ if [ -d "/www/server/phpmyadmin/pma" ];then
 	rm -rf /www/server/phpmyadmin/pma
 	EN_CHECK=$(cat /www/server/panel/config/config.json |grep English)
 	if [ "${EN_CHECK}" ];then
-		curl https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/update6_en.sh|bash
+		curl https://ghproxy.com/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/update6_en.sh|bash
 	else
-		curl https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/update6.sh|bash
+		curl https://ghproxy.com/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/update6.sh|bash
 	fi
 	echo > /www/server/panel/data/restart.pl
 fi

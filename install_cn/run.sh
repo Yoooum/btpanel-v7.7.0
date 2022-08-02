@@ -5,7 +5,7 @@ if [ $(whoami) != "root" ];then
 	exit 1;
 fi
 
-get_modify_url='https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/modify'
+get_modify_url='https://ghproxy.com/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/modify'
 
 mkdir -p /www/backup/modify
 modify_path='/www/backup/modify'
