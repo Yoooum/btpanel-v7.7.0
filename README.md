@@ -4,7 +4,11 @@ btpanel-v7.7.0-backup  官方原版v7.7.0版本面板备份
 **Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7）**
 
 ```Bash
+# 默认
 curl -sSO https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
+
+# 国内
+curl -sSO https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/install_panel.sh && bash install_panel.sh
 ```
 
 **自定义修改部分（可选）**
@@ -14,7 +18,11 @@ curl -sSO https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install/i
 解锁插件商店，部分插件不可用  
 
 ```bash
+# 默认
 curl -sSO https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/modify/run.sh && bash run.sh
+
+# 国内
+curl -sSO https://gh.api.99988866.xyz/https://raw.githubusercontent.com/Yoooum/btpanel-v7.7.0/main/install_cn/run.sh && bash run.sh
 ```
 
 屏蔽强制绑定手机
